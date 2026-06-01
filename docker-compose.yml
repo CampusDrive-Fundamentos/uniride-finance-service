@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  uniride-finance-db:
+    image: postgres:15
+    container_name: uniride-finance-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: uniride_finance
+    ports:
+      - "5436:5432"

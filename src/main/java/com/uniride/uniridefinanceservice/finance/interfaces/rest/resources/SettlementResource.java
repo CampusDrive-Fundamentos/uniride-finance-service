@@ -1,0 +1,2 @@
+package com.uniride.uniridefinanceservice.finance.interfaces.rest.resources;
+public record SettlementResource(Long id, Long tripId, Long driverId, Double totalAmount, Double commissionPlatform, Double driverEarnings, String paymentMethod) {}
